@@ -3,14 +3,14 @@
 
 # Sobre o Projeto
 
-**Frases do dia** é um projeto mobile cross-platform construído em Flutter voltado para o meu estudo pessoal relacionado a esta tecnologia.
+**Frases do Dia** é um projeto mobile cross-platform construído em Flutter voltado para o meu estudo pessoal relacionado a esta tecnologia.
 
 A aplicação consiste em uma tela Home que exiba frases aleatórias pré-definidas ao se clicar em um botão exibido ao usuário.
 
-## Layout mobile
+## Layout Mobile
 ![Mobile 1](https://github.com/felipeabreu86/frases_do_dia/blob/main/assets/mobile1.jpeg)
 
-## Layout web
+## Layout Web
 ![Web 1](https://github.com/felipeabreu86/frases_do_dia/blob/main/assets/web1.jpeg)
 
 # Tecnologias Utilizadas
@@ -21,7 +21,7 @@ A aplicação consiste em uma tela Home que exiba frases aleatórias pré-defini
 - Tela Home
 - Exibição aleatória de frases pré-definidas ao clique do botão
 
-# Como executar o projeto
+# Como Executar o Projeto
 
 ## Flutter
 Pré-requisitos: Flutter 2.2.3 - [Flutter.dev - Como Instalar](https://flutter.dev/docs/get-started/install "Flutter.dev - Como Instalar")
