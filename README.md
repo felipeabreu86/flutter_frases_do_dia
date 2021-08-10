@@ -1,9 +1,9 @@
 # Frases do Dia
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/felipeabreu86/frases_do_dia/blob/main/LICENSE) 
 
-# Sobre o projeto
+# Sobre o Projeto
 
-**Frases do dia** é um projeto mobile cross-platform (#crossplatform) construído em Flutter (#flutter) voltado para o meu estudo pessoal relacionado a esta tecnologia.
+**Frases do dia** é um projeto mobile cross-platform construído em Flutter voltado para o meu estudo pessoal relacionado a esta tecnologia.
 
 A aplicação consiste em uma tela Home que exiba frases aleatórias pré-definidas ao se clicar em um botão exibido ao usuário.
 
@@ -41,7 +41,7 @@ flutter pub get
 flutter devices
 
 # rodar o projeto no seu dispositivo
-flutter run -d <ID>
+flutter run -d <Device ID>
 ```
 
 # Autor
