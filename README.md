@@ -1,16 +1,51 @@
 # Frases do Dia
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/felipeabreu86/frases_do_dia/blob/main/LICENSE) 
 
-Um projeto criado em Flutter para construir um app que exiba frases aleatórias ao se clicar em um botão exibido na tela.
+# Sobre o projeto
 
-## Getting Started
+**Frases do dia** é um projeto mobile cross-platform (#crossplatform) construído em Flutter (#flutter) voltado para o meu estudo pessoal relacionado a esta tecnologia.
 
-This project is a starting point for a Flutter application.
+A aplicação consiste em uma tela Home que exiba frases aleatórias pré-definidas ao se clicar em um botão exibido ao usuário.
 
-A few resources to get you started if this is your first Flutter project:
+## Layout mobile
+![Mobile 1](https://github.com/felipeabreu86/frases_do_dia/assets/mobile1.jpeg)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Layout web
+![Web 1](https://github.com/felipeabreu86/frases_do_dia/assets/web1.jpeg)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Tecnologias Utilizadas
+- Flutter 2.2.3
+- Linguagem Dart
+
+# Funcionalidades
+- Tela Home
+- Exibição aleatória de frases pré-definidas ao clique do botão
+
+# Como executar o projeto
+
+## Flutter
+Pré-requisitos: Flutter 2.2.3
+
+```bash
+# clonar repositório
+git clone https://github.com/felipeabreu86/frases_do_dia.git
+
+# entrar na pasta do projeto
+cd frases_do_dia
+
+# rodar o comando abaixo para obter as dependências do projeto
+flutter pub get
+
+# descobrir os dispositivos disponíveis para executar o app
+# copiar o ID do dispositivo para utilizá-lo no próximo comando 
+flutter devices
+
+# rodar o projeto no seu dispositivo
+flutter run -d <ID>
+```
+
+# Autor
+
+Felipe Abreu
+
+https://www.linkedin.com/in/feabreu/
