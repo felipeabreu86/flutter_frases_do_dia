@@ -1,6 +1,6 @@
-# frases_do_dia
+# Frases do Dia
 
-A new Flutter project.
+Um projeto criado em Flutter para construir um app que exiba frases aleatórias ao se clicar em um botão exibido na tela.
 
 ## Getting Started
 
