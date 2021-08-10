@@ -24,7 +24,7 @@ A aplicação consiste em uma tela Home que exiba frases aleatórias pré-defini
 # Como executar o projeto
 
 ## Flutter
-Pré-requisitos: Flutter 2.2.3
+Pré-requisitos: Flutter 2.2.3 - [Flutter.dev - Como Instalar](https://flutter.dev/docs/get-started/install "Flutter.dev - Como Instalar")
 
 ```bash
 # clonar repositório
