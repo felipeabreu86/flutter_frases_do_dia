@@ -1,5 +1,5 @@
 # Frases do Dia
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/felipeabreu86/frases_do_dia/blob/main/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/felipeabreu86/flutter_frases_do_dia/blob/main/LICENSE) 
 
 # Sobre o Projeto
 
@@ -8,10 +8,10 @@
 A aplicação consiste em uma tela Home que exiba frases aleatórias pré-definidas ao se clicar em um botão exibido ao usuário.
 
 ## Layout Mobile
-![Mobile 1](https://github.com/felipeabreu86/frases_do_dia/blob/main/assets/screens/mobile1.png)
+![Mobile 1](https://github.com/felipeabreu86/flutter_frases_do_dia/blob/main/assets/screens/mobile1.png)
 
 ## Layout Web
-![Web 1](https://github.com/felipeabreu86/frases_do_dia/blob/main/assets/screens/web1.png)
+![Web 1](https://github.com/felipeabreu86/flutter_frases_do_dia/blob/main/assets/screens/web1.png)
 
 # Tecnologias Utilizadas
 - Flutter 2.2.3
@@ -28,10 +28,10 @@ Pré-requisitos: Flutter 2.2.3 ([como instalar](https://flutter.dev/docs/get-sta
 
 ```bash
 # clonar repositório
-git clone https://github.com/felipeabreu86/frases_do_dia.git
+git clone https://github.com/felipeabreu86/flutter_frases_do_dia.git
 
 # entrar na pasta do projeto
-cd frases_do_dia
+cd flutter_frases_do_dia
 
 # rodar o comando abaixo para obter as dependências do projeto
 flutter pub get
