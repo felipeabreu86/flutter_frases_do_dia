@@ -8,10 +8,10 @@
 A aplicação consiste em uma tela Home que exiba frases aleatórias pré-definidas ao se clicar em um botão exibido ao usuário.
 
 ## Layout Mobile
-![Mobile 1](https://github.com/felipeabreu86/frases_do_dia/blob/main/assets/mobile1.jpeg)
+![Mobile 1](https://github.com/felipeabreu86/frases_do_dia/blob/main/assets/screens/mobile1.png)
 
 ## Layout Web
-![Web 1](https://github.com/felipeabreu86/frases_do_dia/blob/main/assets/web1.jpeg)
+![Web 1](https://github.com/felipeabreu86/frases_do_dia/blob/main/assets/screens/web1.png)
 
 # Tecnologias Utilizadas
 - Flutter 2.2.3
