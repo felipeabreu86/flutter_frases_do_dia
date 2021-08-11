@@ -1,8 +1,10 @@
+import 'dart:math';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 //**
-// Inicializa o app
+// Método que inicializa o app
 // */
 void main() {
   runApp(MaterialApp(
@@ -21,6 +23,23 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  var fraseAtual = "Clique abaixo para gerar uma frase!";
+  var frases = [
+    "Tudo o que um sonho precisa para ser realizado é alguém que acredite que ele possa ser realizado.",
+    "Imagine uma nova história para sua vida e acredite nela.",
+    "Ser feliz sem motivo é a mais autêntica forma de felicidade.",
+    "Não espere por uma crise para descobrir o que é importante em sua vida."
+  ];
+
+  /// Atualiza a frase atual e o estado da aplicação
+  void atualizarFrase() {
+    var index = Random().nextInt(frases.length);
+    setState(() {
+      fraseAtual = frases[index];
+      print(fraseAtual);
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -42,7 +61,7 @@ class _HomeState extends State<Home> {
           children: [
             Image.asset("assets/images/logo.png"),
             Text(
-              "Clique abaixo para gerar uma frase!",
+              fraseAtual,
               textAlign: TextAlign.center,
               style: TextStyle(
                   fontSize: 25,
@@ -50,7 +69,7 @@ class _HomeState extends State<Home> {
                   color: Colors.black),
             ),
             ElevatedButton(
-                onPressed: null,
+                onPressed: atualizarFrase,
                 child: Text(
                   "Nova Frase",
                   style: TextStyle(
