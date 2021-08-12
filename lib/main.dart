@@ -51,35 +51,49 @@ class _HomeState extends State<Home> {
         backgroundColor: Colors.green,
       ),
       body: Container(
-        padding: EdgeInsets.all(16),
         width: double.infinity,
+        height: MediaQuery.of(context).size.height,
         decoration:
             BoxDecoration(border: Border.all(width: 3, color: Colors.amber)),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Image.asset("assets/images/logo.png"),
-            Text(
-              fraseAtual,
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                  fontSize: 25,
-                  fontStyle: FontStyle.italic,
-                  color: Colors.black),
-            ),
-            ElevatedButton(
+        child: SingleChildScrollView(
+          padding: EdgeInsets.all(15),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisSize: MainAxisSize.max,
+            children: [
+              Padding(
+                padding: const EdgeInsets.only(top: 50, bottom: 80),
+                child: Image.asset("assets/images/logo.png"),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(bottom: 80),
+                child: Text(
+                  fraseAtual,
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontSize: 25,
+                    fontStyle: FontStyle.italic,
+                    color: Colors.black,
+                  ),
+                ),
+              ),
+              ElevatedButton(
                 onPressed: atualizarFrase,
                 child: Text(
                   "Nova Frase",
                   style: TextStyle(
-                      fontSize: 17,
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold),
+                    fontSize: 17,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
                 style: ButtonStyle(
-                    backgroundColor: MaterialStateProperty.all(Colors.green)))
-          ],
+                  backgroundColor: MaterialStateProperty.all(Colors.green),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
